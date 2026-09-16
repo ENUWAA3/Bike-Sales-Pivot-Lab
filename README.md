@@ -3,20 +3,19 @@
 ## Project Overview
 This project analyzes a bike sales dataset using Excel, focusing on order quantity and revenue broken down by customer age group, gender, and country. A pivot table and bar chart were built to explore purchasing patterns across these customer segments.
 
-
-
-![Bar Chart](Bar%20Chart.PNG)
-
-
 ## Dataset
 The dataset includes order-level bike sales records with the following fields: sales order number, date, customer age and age group, customer gender, country, state, product category/sub-category, order quantity, unit cost, unit price, profit, cost, and revenue.
 
-## Pivot Table: Order Quantity by Age Group, Gender, and Country
+## Analysis
 
+### Pivot Table: Order Quantity by Age Group, Gender, and Country
 
 
 ![Pivot Table](Pivot%20Table.PNG)
 
+
+
+The pivot table breaks down order quantity across three dimensions — age group, gender, and country — making it possible to see which customer segments drive the most volume. Adults (35–64) clearly lead, and the gender split within each age group reveals some notable shifts (see Key Findings below).
 
 | Age Group             | Total Units Sold |
 |------------------------|------------------|
@@ -36,6 +35,15 @@ The dataset includes order-level bike sales records with the following fields: s
 | United States   | 65*        |
 
 *\*United States appears twice in the raw pivot (once as "United States" and once as "United  States" with an extra space), so its totals were combined here — see Data Quality below.*
+
+### Bar Chart: Visualizing the Breakdown
+
+
+![Bar Chart](Bar%20Chart.PNG)
+
+
+
+The bar chart visualizes the same order quantity data as the pivot table, making the differences between age groups and countries easier to compare at a glance. The height gap between Adults and the other two age groups stands out immediately, as does the gap between the top two markets (U.S. and Australia) and the rest.
 
 ## Key Findings
 
